@@ -11,27 +11,8 @@
 		CC612CD22BF26D0400A9148D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC612CD12BF26D0400A9148D /* ContentView.swift */; };
 		CC612CD42BF26D0500A9148D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC612CD32BF26D0500A9148D /* Assets.xcassets */; };
 		CC612CD72BF26D0500A9148D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC612CD62BF26D0500A9148D /* Preview Assets.xcassets */; };
-		CC612CE12BF26D0500A9148D /* ScaleTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC612CE02BF26D0500A9148D /* ScaleTextTests.swift */; };
-		CC612CEB2BF26D0500A9148D /* ScaleTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC612CEA2BF26D0500A9148D /* ScaleTextUITests.swift */; };
-		CC612CED2BF26D0500A9148D /* ScaleTextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC612CEC2BF26D0500A9148D /* ScaleTextUITestsLaunchTests.swift */; };
+		CC612CFB2BF26D7400A9148D /* TextEdit in Frameworks */ = {isa = PBXBuildFile; productRef = CC612CFA2BF26D7400A9148D /* TextEdit */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CC612CDD2BF26D0500A9148D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CC612CC42BF26D0400A9148D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CC612CCB2BF26D0400A9148D;
-			remoteInfo = ScaleText;
-		};
-		CC612CE72BF26D0500A9148D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CC612CC42BF26D0400A9148D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CC612CCB2BF26D0400A9148D;
-			remoteInfo = ScaleText;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CC612CCC2BF26D0400A9148D /* ScaleText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaleText.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,11 +20,6 @@
 		CC612CD12BF26D0400A9148D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC612CD32BF26D0500A9148D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC612CD62BF26D0500A9148D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CC612CDC2BF26D0500A9148D /* ScaleTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaleTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC612CE02BF26D0500A9148D /* ScaleTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTextTests.swift; sourceTree = "<group>"; };
-		CC612CE62BF26D0500A9148D /* ScaleTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaleTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC612CEA2BF26D0500A9148D /* ScaleTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTextUITests.swift; sourceTree = "<group>"; };
-		CC612CEC2BF26D0500A9148D /* ScaleTextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTextUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC612CD92BF26D0500A9148D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC612CE32BF26D0500A9148D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CC612CFB2BF26D7400A9148D /* TextEdit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				CC612CCE2BF26D0400A9148D /* ScaleText */,
-				CC612CDF2BF26D0500A9148D /* ScaleTextTests */,
-				CC612CE92BF26D0500A9148D /* ScaleTextUITests */,
 				CC612CCD2BF26D0400A9148D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				CC612CCC2BF26D0400A9148D /* ScaleText.app */,
-				CC612CDC2BF26D0500A9148D /* ScaleTextTests.xctest */,
-				CC612CE62BF26D0500A9148D /* ScaleTextUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,23 +69,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CC612CDF2BF26D0500A9148D /* ScaleTextTests */ = {
-			isa = PBXGroup;
-			children = (
-				CC612CE02BF26D0500A9148D /* ScaleTextTests.swift */,
-			);
-			path = ScaleTextTests;
-			sourceTree = "<group>";
-		};
-		CC612CE92BF26D0500A9148D /* ScaleTextUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CC612CEA2BF26D0500A9148D /* ScaleTextUITests.swift */,
-				CC612CEC2BF26D0500A9148D /* ScaleTextUITestsLaunchTests.swift */,
-			);
-			path = ScaleTextUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,45 +85,12 @@
 			dependencies = (
 			);
 			name = ScaleText;
+			packageProductDependencies = (
+				CC612CFA2BF26D7400A9148D /* TextEdit */,
+			);
 			productName = ScaleText;
 			productReference = CC612CCC2BF26D0400A9148D /* ScaleText.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CC612CDB2BF26D0500A9148D /* ScaleTextTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC612CF32BF26D0500A9148D /* Build configuration list for PBXNativeTarget "ScaleTextTests" */;
-			buildPhases = (
-				CC612CD82BF26D0500A9148D /* Sources */,
-				CC612CD92BF26D0500A9148D /* Frameworks */,
-				CC612CDA2BF26D0500A9148D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CC612CDE2BF26D0500A9148D /* PBXTargetDependency */,
-			);
-			name = ScaleTextTests;
-			productName = ScaleTextTests;
-			productReference = CC612CDC2BF26D0500A9148D /* ScaleTextTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CC612CE52BF26D0500A9148D /* ScaleTextUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC612CF62BF26D0500A9148D /* Build configuration list for PBXNativeTarget "ScaleTextUITests" */;
-			buildPhases = (
-				CC612CE22BF26D0500A9148D /* Sources */,
-				CC612CE32BF26D0500A9148D /* Frameworks */,
-				CC612CE42BF26D0500A9148D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CC612CE82BF26D0500A9148D /* PBXTargetDependency */,
-			);
-			name = ScaleTextUITests;
-			productName = ScaleTextUITests;
-			productReference = CC612CE62BF26D0500A9148D /* ScaleTextUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +105,6 @@
 					CC612CCB2BF26D0400A9148D = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					CC612CDB2BF26D0500A9148D = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = CC612CCB2BF26D0400A9148D;
-					};
-					CC612CE52BF26D0500A9148D = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = CC612CCB2BF26D0400A9148D;
-					};
 				};
 			};
 			buildConfigurationList = CC612CC72BF26D0400A9148D /* Build configuration list for PBXProject "ScaleText" */;
@@ -215,13 +116,14 @@
 				Base,
 			);
 			mainGroup = CC612CC32BF26D0400A9148D;
+			packageReferences = (
+				CC612CF92BF26D7400A9148D /* XCRemoteSwiftPackageReference "SwiftUI" */,
+			);
 			productRefGroup = CC612CCD2BF26D0400A9148D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CC612CCB2BF26D0400A9148D /* ScaleText */,
-				CC612CDB2BF26D0500A9148D /* ScaleTextTests */,
-				CC612CE52BF26D0500A9148D /* ScaleTextUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,20 +135,6 @@
 			files = (
 				CC612CD72BF26D0500A9148D /* Preview Assets.xcassets in Resources */,
 				CC612CD42BF26D0500A9148D /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC612CDA2BF26D0500A9148D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC612CE42BF26D0500A9148D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,37 +150,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC612CD82BF26D0500A9148D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC612CE12BF26D0500A9148D /* ScaleTextTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC612CE22BF26D0500A9148D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC612CED2BF26D0500A9148D /* ScaleTextUITestsLaunchTests.swift in Sources */,
-				CC612CEB2BF26D0500A9148D /* ScaleTextUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CC612CDE2BF26D0500A9148D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CC612CCB2BF26D0400A9148D /* ScaleText */;
-			targetProxy = CC612CDD2BF26D0500A9148D /* PBXContainerItemProxy */;
-		};
-		CC612CE82BF26D0500A9148D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CC612CCB2BF26D0400A9148D /* ScaleText */;
-			targetProxy = CC612CE72BF26D0500A9148D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CC612CEE2BF26D0500A9148D /* Debug */ = {
@@ -472,82 +330,6 @@
 			};
 			name = Release;
 		};
-		CC612CF42BF26D0500A9148D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = APYL42WZVK;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.flow.ScaleTextTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaleText.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScaleText";
-			};
-			name = Debug;
-		};
-		CC612CF52BF26D0500A9148D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = APYL42WZVK;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.flow.ScaleTextTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaleText.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScaleText";
-			};
-			name = Release;
-		};
-		CC612CF72BF26D0500A9148D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = APYL42WZVK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.flow.ScaleTextUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ScaleText;
-			};
-			name = Debug;
-		};
-		CC612CF82BF26D0500A9148D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = APYL42WZVK;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.flow.ScaleTextUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ScaleText;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,25 +351,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC612CF32BF26D0500A9148D /* Build configuration list for PBXNativeTarget "ScaleTextTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC612CF42BF26D0500A9148D /* Debug */,
-				CC612CF52BF26D0500A9148D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CC612CF62BF26D0500A9148D /* Build configuration list for PBXNativeTarget "ScaleTextUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC612CF72BF26D0500A9148D /* Debug */,
-				CC612CF82BF26D0500A9148D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC612CF92BF26D7400A9148D /* XCRemoteSwiftPackageReference "SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/SwiftUI.TextEdit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC612CFA2BF26D7400A9148D /* TextEdit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC612CF92BF26D7400A9148D /* XCRemoteSwiftPackageReference "SwiftUI" */;
+			productName = TextEdit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CC612CC42BF26D0400A9148D /* Project object */;
 }

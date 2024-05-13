@@ -1,0 +1,24 @@
+{
+  "originHash" : "21df791fb020822beae307c9e62742c8d864ce72f6905c6649d637febd12f882",
+  "pins" : [
+    {
+      "identity" : "coretextswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/CoreTextSwift.git",
+      "state" : {
+        "revision" : "6044735c56e872ed1aab7d5605b002ee63da338a",
+        "version" : "0.0.2"
+      }
+    },
+    {
+      "identity" : "swiftui.textedit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/SwiftUI.TextEdit",
+      "state" : {
+        "revision" : "11d7723ee4bc8f74cbeb02af336bb0da9dddfad9",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
